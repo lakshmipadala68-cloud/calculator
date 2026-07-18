@@ -1,0 +1,80 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     background-image: url(mathu.png);
+        background-size: cover;
+     background-position:center;
+}
+.calculator {
+       width: 420px;
+   
+       padding:35px;
+       background-color: rgb(27, 22, 22);
+       border-radius: 20px;
+       box-shadow : 0 4px 10px gray;
+       border: 2px solid #555;
+    
+
+    border: 2px solid gray;
+
+}
+
+.display{
+     width: 100px ;
+     height: 60px;
+     font-size: 24px;
+     text-align: right;
+     padding: 10px;
+     border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.buttons
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button{
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: grey;
+    font-weight: bold;
+}
+.clear
+{
+    background-color: rgb(250, 194, 90);
+
+}
+.operator
+{
+    background-color: rgb(231, 14, 14);
+}
+.equal
+{
+    background-color: rgb(217, 217, 228);
+  
+    grid-column: 4;
+    grid-row: 5;
+
+   
+}
+.wrapper{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
